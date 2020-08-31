@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" asp-href-include="lib/bootstrap/dist/css/*.min.css" />
+    <link rel="stylesheet" asp-href-include="lib/fontawesome/web-fonts-with-css/css/*.css" />
+    <title>MVC Bartender App</title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse justify-content-between" style="background-color:#04b2ab;">
+        <div class="float-left justify-content-around">
+            <img src="\Images\CocktailMenu.png" style="width:70px;height:50px;" />
+            <a class=" btn btn-light m-2"
+               asp-action="Index"
+               asp-controller="About"
+               asp-route-category="">
+                About
+            </a>
+            <a class=" btn btn-light m-2"
+               asp-action="Index"
+               asp-controller="Contact"
+               asp-route-category="">
+                Contact Us
+
+            </a>
+        </div>
+
+        <div class="float-right">
+            @await Component.InvokeAsync("CartSummary")
+        </div>
+    </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-3">
+                    @await Component.InvokeAsync("NavigationMenu")
+                </div>
+                <div class="col col-md-9">
+
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+</body>
+</html> 
