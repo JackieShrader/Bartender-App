@@ -20,6 +20,12 @@
     <div class="panel-heading">
         <h4>@ViewBag.Title</h4>
         <a class="btn btn-sm btn-primary float-right" asp-action="Logout" aspcontroller="Account">Log Out</a>
+        <a class=" btn btn-primary m-2"
+           asp-action="Index"
+           asp-controller="Home"
+           asp-route-category="">
+            Home
+        </a>
 
     </div>
     <div class="panel-body">
