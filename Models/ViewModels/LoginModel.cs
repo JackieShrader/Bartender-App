@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace DiceStore.Models.ViewModels
+namespace BartenderApp.Models.ViewModels
 {
     public class LoginModel
     {

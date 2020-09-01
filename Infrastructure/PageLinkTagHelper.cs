@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
-using DiceStore.Models.ViewModels;
+using BartenderApp.Models.ViewModels;
 using System.Collections.Generic;
 
-namespace DiceStore.Infrastructure
+namespace BartenderApp.Infrastructure
 {
     [HtmlTargetElement("div", Attributes = "page-model")]
     public class PageLinkTagHelper : TagHelper

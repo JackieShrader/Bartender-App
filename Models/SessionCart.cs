@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
-using DiceStore.Infrastructure;
+using BartenderApp.Infrastructure;
 
-namespace DiceStore.Models
+namespace BartenderApp.Models
 {
     public class SessionCart : Cart
     {

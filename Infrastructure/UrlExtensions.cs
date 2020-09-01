@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 using Microsoft.AspNetCore.Http;
 
-namespace DiceStore.Infrastructure
+namespace BartenderApp.Infrastructure
 {
     public static class UrlExtensions
     {

@@ -6,13 +6,13 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
-using DiceStore.Models;
+using BartenderApp.Models;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
-using DiceStore.Controllers;
+using BartenderApp.Controllers;
 
-namespace DiceStore
+namespace BartenderApp
 {
     public class Startup
     {

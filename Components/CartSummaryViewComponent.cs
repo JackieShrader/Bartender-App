@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using DiceStore.Models;
+using BartenderApp.Models;
 
-namespace DiceStore.Components
+namespace BartenderApp.Components
 {
     public class CartSummaryViewComponent : ViewComponent
     {

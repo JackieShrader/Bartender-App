@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
-namespace DiceStore.Models
+namespace BartenderApp.Models
 {
     public class ApplicationDbContext : IdentityDbContext<AppUser, IdentityRole<Guid>, Guid>
     {

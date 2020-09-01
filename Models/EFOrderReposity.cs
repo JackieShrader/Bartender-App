@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 
-namespace DiceStore.Models
+namespace BartenderApp.Models
 {
     public class EFOrderRepository : IOrderRepository
     {

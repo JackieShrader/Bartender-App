@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using DiceStore.Models;
-using DiceStore.Models.ViewModels;
+using BartenderApp.Models;
+using BartenderApp.Models.ViewModels;
 
-namespace DiceStore.Controllers
+namespace BartenderApp.Controllers
 {
     public class CartController : Controller
     {

@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 
-namespace DiceStore.Models
+namespace BartenderApp.Models
 {
     public class Product
     {

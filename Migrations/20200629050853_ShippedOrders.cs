@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace DiceStore.Migrations
+namespace BartenderApp.Migrations
 {
     public partial class ShippedOrders : Migration
     {

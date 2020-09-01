@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using DiceStore.Models;
+using BartenderApp.Models;
 
-namespace DiceStore.Models.ViewModels
+namespace BartenderApp.Models.ViewModels
 {
     public class ProductsListViewModel
     {

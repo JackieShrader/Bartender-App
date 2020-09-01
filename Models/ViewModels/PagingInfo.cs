@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DiceStore.Models.ViewModels
+namespace BartenderApp.Models.ViewModels
 {
     public class PagingInfo
     {

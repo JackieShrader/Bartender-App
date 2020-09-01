@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using DiceStore.Models;
+using BartenderApp.Models;
 using System.Linq;
 using Microsoft.AspNetCore.Authorization;
 
-namespace DiceStore.Controllers
+namespace BartenderApp.Controllers
 {
     public class OrderController : Controller
     {

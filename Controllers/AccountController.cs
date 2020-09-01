@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
-using DiceStore.Models.ViewModels;
-using DiceStore.Models;
+using BartenderApp.Models.ViewModels;
+using BartenderApp.Models;
 
-namespace DiceStore.Controllers
+namespace BartenderApp.Controllers
 {
     [Authorize]
     public class AccountController : Controller

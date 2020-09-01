@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace DiceStore.Models
+namespace BartenderApp.Models
 {
     public interface IOrderRepository
     {
